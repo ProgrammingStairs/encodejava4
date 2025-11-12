@@ -1,19 +1,19 @@
 // example showing the concept of constructor
-// parameterized constructor
+// copying values of one object into another
 
 import java.util.Scanner;
-class Demo4{
+class Demo5{
     int rno;
     float per;
     String name;
-    Demo4(){
+    Demo5(){
         System.out.println("no argument constructor called");
     }
-    Demo4(int rno,float per,String name){
+    Demo5(int rno,float per,String name){
         this.rno = rno;
         this.per = per;
         this.name = name; 
-        System.out.println("parameterized constructor called");
+        System.out.println("\nparameterized constructor called\n");
     }
     void display(){
         System.out.println("Roll Number : "+rno);
@@ -30,9 +30,15 @@ class Demo4{
         System.out.println("Enter name : ");
         String name = sc.nextLine();
         
-        Demo4 obj = new Demo4(rno,per,name);
+        Demo5 obj = new Demo5(rno,per,name);
         obj.display();
 
-        new Demo4();
+        Demo5 objNew = new Demo5();
+        objNew.rno = obj.rno;
+        objNew.per = obj.per;
+        objNew.name = obj.name;
+
+        System.out.println("\nAfter copying : ");
+        objNew.display();
     }
 }
