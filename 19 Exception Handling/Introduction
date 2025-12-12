@@ -43,6 +43,6 @@ Syntax:
 
     try(class_name obj = new class_name()){
 
-    }catch(Exception e){
+     }catch(Exception e){
 
     }
