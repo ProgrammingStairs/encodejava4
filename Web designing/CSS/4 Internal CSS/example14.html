@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* li:nth-of-type(even){
+            color:red;
+        }
+        li:nth-of-type(odd){
+            color:green;
+        } */
+        li:nth-of-type(4){
+            /* background-color: blue; */
+            color:orange;
+        }
+        li::first-letter{
+            text-decoration: underline;
+        }
+        ul::first-line {
+            background-color: green;
+            color:white;
+        }
+        ::marker{
+            color:purple;
+        }
+        input::placeholder{
+            color:red;
+        }
+        span::before{
+            content:"Enter Username"
+        }
+    </style>
+</head>
+<body>
+    <span></span> <br>
+    <input type="text" placeholder="Enter Username">
+    <ul>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+    </ul>
+</body>
+</html>
