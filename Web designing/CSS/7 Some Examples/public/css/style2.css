@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    background-color: whitesmoke;
+}
+#header{
+    height: 250px;
+    border-style: solid;
+}
+#banner{
+    height: 250px;
+    width: 100%;
+}
+#circle{
+    height:120px;
+    width: 120px;
+    /* border-style: solid; */
+    margin-left: 80px;
+    margin-top: -60px;
+    border-radius: 50%;
+}
+#section{
+    height:200px;
+    /* border-style: solid; */
+    padding: 50px;
+    background-color: whitesmoke;
+}
+#sec1,#sec2,#sec3{
+    height:140px;
+    width: 260px;
+    /* border-style: solid; */
+    float: left;
+    margin: 10px;
+    margin-left: 60px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 60px 1px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+#user{
+    height:120px;
+    width: 120px;
+    border-radius: 50%; 
+}
+fieldset{
+    border-width: 5px;
+    border-color: darkslategray;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+}

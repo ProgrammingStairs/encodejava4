@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+#outer{
+    height: 674px;
+    background-color: dodgerblue;
+    width: 100%;
+}
+
+#inner{
+    height: 674px;
+    background-color: white;
+    width: 100%;
+    border-radius: 0% 0% 0% 100%;
+}
